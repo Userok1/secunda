@@ -1,0 +1,18 @@
+[project]
+name = "secunda-proj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "aio-pika>=10.1.1",
+    "alembic>=1.20.0",
+    "asyncpg>=0.32.0",
+    "fastapi>=0.144.0",
+    "faststream[rabbit]>=0.7.7",
+    "httpx>=0.28.1",
+    "pydantic>=2.14.1",
+    "pydantic-settings>=2.16.0",
+    "sqlalchemy[asyncio]>=2.1.5",
+    "uvicorn[standard]>=0.54.0",
+]

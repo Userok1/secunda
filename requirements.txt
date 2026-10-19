@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+SQLAlchemy[asyncio]
+asyncpg
+alembic
+faststream[rabbit]
+aio-pika
+httpx
